@@ -9,6 +9,16 @@
     --peach: #ff8e80;
 }
 
+#all {
+    margin: 3vw;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    background-color: var(--purple);
+    padding: 5vw;
+    border-radius: 2vw;
+}
+
 h1 {
     text-align: center;
 }
@@ -23,13 +33,23 @@ body {
 #topBox{
     display: flex;
     flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: center;
 }
 
-#introduction {
-    display: flex;
+#prof {
+    display: inherit;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2.5vw;
+    width: 50%;
+}
+
+#introtext{
     flex-direction: column;
-    margin-left: 3%;
-    font-family: 'Courier New', Courier, monospace;
+    justify-content: flex-start;
+    width: 50%;
 }
 
 img {
@@ -64,13 +84,4 @@ div {
 .text {
     font-family: cursive;
     text-align: left;
-}
-
-#all {
-    margin: 3vw;
-    align-items: center;
-    width: 60%;
-    background-color: var(--purple);
-    padding: 5vw;
-    border-radius: 2vw;
 }
