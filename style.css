@@ -4,19 +4,21 @@
 
 :root {
     --black: #051f39;
-    --purple: #4a2480;
+    --purple: rgb(74, 36, 128, 0.3);
     --pink: #c53a9d;
-    --peach: #ff8e80;
+    --peach: rgb(255, 142, 128, 0.4);
 }
 
 #all {
-    margin: 3vw;
+    margin: 1vw;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 70%;
     background-color: var(--purple);
-    padding: 5vw;
+    padding: 1vw;
     border-radius: 2vw;
+    backdrop-filter: blur(12px) saturate(180%);
+    box-shadow: 0px 0px 20px 10px rgb(3, 19, 35, 0.5);
 }
 
 h1 {
