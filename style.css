@@ -29,14 +29,28 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 3%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 div {
-    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-family: cursive;
+    text-align: left;
 }
 
 #all {
+    margin: 3vw;
     align-items: center;
-    width: 50%;
+    width: 60%;
     background-color: var(--purple);
+    padding: 5vw;
+    border-radius: 2vw;
 }
