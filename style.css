@@ -39,6 +39,26 @@ img {
 
 div {
     align-items: center;
+    margin: 10px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column;
+    }
+
+    #all {
+        margin: 3vw;
+        align-items: center;
+        padding: 10vw;
+    }
 }
 
 .text {
