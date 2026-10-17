@@ -2,7 +2,7 @@ const lines = document.getElementById('lines');
 const glow = document.getElementById('lines');
 const grid = document.getElementById('squares');
 
-for (let i = 0; i < 120; i++) {
+for (let i = 0; i < 200; i++) {
     const square = document.createElement('div');
     square.classList.add('squareBoxes');
     grid.appendChild(square);
