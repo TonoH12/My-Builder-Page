@@ -1,7 +1,8 @@
-# My-Builder-Page
-A website about me and a few projects I made
-Made for the <ins>Raise Your Builder Page Trial</ins>
-Demo: [https://tonoh12.github.io/My-Builder-Page/]<br>
+# My Builder Page
+A website about me and a few projects I made<br>
+Made for the ___Raise Your Builder Page Trial___<br>
+Demo link: [My Builder Page](https://tonoh12.github.io/My-Builder-Page/)<br>
+<br>
 
 <img width="2940" height="1494" alt="builder" src="https://github.com/user-attachments/assets/efb6d504-09cc-4b61-aaa1-25c0efae558d" /><br>
 
