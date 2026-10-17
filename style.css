@@ -26,11 +26,32 @@ h1 {
     text-align: center;
 }
 
+#squares {
+    position: fixed;
+    z-index: ;
+    display: grid;
+    width: 120%;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, 15vh);
+    grid-template-rows: repeat(auto-fill, 15vh);
+    column-gap: 10px;
+    row-gap: 10px;
+    pointer-events: none;
+    left: -4vw;
+    top: -4vh;
+}
+
+.squareBoxes {
+    width: 100%;
+    background-color: var(--black);
+    aspect-ratio: 1 / 1;
+}
+
 body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--black);
+    background-color: black;
 }
 
 #glow {
@@ -39,7 +60,7 @@ body {
     background: radial-gradient(circle, var(--pink) 0%, rgba(99, 102, 241, 0) 60%);
     width:100px;
     height:100px;
-    z-index: 2;
+    z-index: 1;
     transform: translate(-50%, -50%);
 }
 
