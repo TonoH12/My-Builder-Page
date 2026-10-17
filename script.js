@@ -12,7 +12,7 @@ window.addEventListener('load', (e) => {
 });
 
 window.addEventListener('mousemove', (e) => {
-    glow.style.background = 'radial-gradient(circle, #c53a9d 60%, rgba(255, 0, 217, 0) 80%)';
+    glow.style.background = '#8f154f';
     glow.style.left = e.clientX + 'px';
     glow.style.top = e.clientY + 'px';
 });

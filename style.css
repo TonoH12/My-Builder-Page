@@ -3,10 +3,9 @@
 }
 
 :root {
-    --black: #051f39;
-    --purple: rgb(74, 36, 128, 0.3);
-    --pink: #c53a9d;
-    --peach: rgb(255, 142, 128, 0.4);
+    --black: #0d0812;
+    --purple: rgb(22, 44, 84, 0.4);
+    --pink: #8f154f;
 }
 
 #all {
