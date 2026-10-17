@@ -1,11 +1,11 @@
 * {
-    color: var(--pink);
+    color: var(--red);
 }
 
 :root {
     --black: #0d0812;
     --purple: rgb(22, 44, 84, 0.4);
-    --pink: #b82d46;
+    --red: #b82d46;
 }
 
 #all {
@@ -27,7 +27,7 @@ h1 {
 
 #squares {
     position: fixed;
-    z-index: 2;
+    z-index: 1;
     display: grid;
     width: 120%;
     height: 100%;
@@ -53,12 +53,21 @@ body {
     background-color: var(--black);
 }
 
+#lines {
+    position: fixed;
+    pointer-events: none;
+    width: 175px;
+    height: 175px;
+    z-index: 0;
+    transform: translate(-50%, -50%);
+}
+
 #glow {
     position: fixed;
     pointer-events: none;
     width: 110px;
     height: 110px;
-    z-index: 0;
+    z-index: 2;
     transform: translate(-50%, -50%);
 }
 
@@ -119,4 +128,14 @@ div {
 .text {
     font-family: cursive;
     text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    border-width: 3px;
+    border-color: var(--red);
+    border-style: dashed;
 }
