@@ -1,7 +1,7 @@
 # My Builder Page
 A website about me and a few projects I made<br>
-Made for the ___Raise Your Builder Page Trial___<br>
-Demo link: [My Builder Page](https://tonoh12.github.io/My-Builder-Page/)<br>
+This was built for Pixl's ___Raise Your Builder Page Trial___. Additionally, it served to refresh my knowledge in combining JavaScript and CSS.<br>
+Link to the website: [My Builder Page](https://tonoh12.github.io/My-Builder-Page/)<br>
 <br>
 
 <img width="2940" height="1494" alt="builder" src="https://github.com/user-attachments/assets/efb6d504-09cc-4b61-aaa1-25c0efae558d" /><br>
