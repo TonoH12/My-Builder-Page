@@ -13,6 +13,11 @@ Link to the website: [My Builder Page](https://tonoh12.github.io/My-Builder-Page
 <br>
 <br>
 
+## How to run locally
+Either use the live demo link above, or
+1. Clone the repository
+2. Open index.html in your browser
+
 ## Features
 - Glassmorphism CSS card layout
 - Custom cursor effect using CSS radial mask
