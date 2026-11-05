@@ -24,9 +24,10 @@ Either use the live demo link above, or
 - Custom cursor effect using CSS radial mask
 - CSS grid populated using JS
 - Responsive web design
-<br>
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
+<br>
+<br>
 
 Made using HTML, CSS, and JS
